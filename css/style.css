@@ -11,4 +11,121 @@
   display: table;
 }
 
-/*  */
+.float-left{
+  float: left;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+.w-50{
+  width: 50%;
+}
+
+/* header */
+header{
+  width: 100%;
+  height: 500px;
+  background-color: rgb(5, 5, 131);
+}
+
+.header-contenitore{
+  width: 100%;
+  height: 100%;
+  min-width: 1300px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: url(../img/background-header.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 115% 100% ;
+}
+
+.header-nav{
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+.header-contenitore .logo{
+  width: 15%;
+}
+
+.header-contenitore .logo img{
+  margin-top: 15px;
+}
+
+.header-contenitore .nav-center{
+  width: 45%;
+}
+
+.header-contenitore .nav-right{
+  width: 40%;
+  text-align: right;
+}
+
+
+/* menu */
+
+.menu-inline{
+  list-style: none;
+}
+
+.menu-inline li{
+  display: inline;
+  padding: 0 10px;
+}
+.menu-inline li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* buttons */
+
+.btn{
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn.white{
+  border: solid 1px white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn.verde{
+  background-color: rgb(6, 179, 6);
+}
+
+.btn.verde.large{
+  padding: 20px;
+}
+
+/* jumbotrom */
+
+.jumbotrom{
+  position: relative;
+  height: 420px;
+}
+
+.jumbotrom-text{
+  position: absolute;
+  top: 50%;
+}
+
+.jumbotrom-text h1{
+  font-size: 350%;
+  transform: translateY(-50%);  
+}
+
+/* main */
